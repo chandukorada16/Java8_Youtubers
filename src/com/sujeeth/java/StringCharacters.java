@@ -18,7 +18,7 @@ public class StringCharacters {
                 .map(String::toLowerCase)
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
         System.out.println(collect);
-        System.out.println(java17TextBlock);
+        System.out.println(java17TextBlock); //
 
     }
 }
